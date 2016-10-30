@@ -38,7 +38,7 @@
     selector: span.r99
 
   search:
-    path: /torrents.php?searchstr=&tags_type=1&order_by=time&order_way=desc&action=advanced&searchsubmit=1
+    path: /torrents.php
     inputs:
       $raw: "{{range .Categories}}filter_cat[{{.}}]=1&{{end}}"
       searchstr: "{{ .Query.Keywords }}"
