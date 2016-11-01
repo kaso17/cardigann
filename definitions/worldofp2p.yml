@@ -134,6 +134,7 @@
       downloadvolumefactor:
         case:
           a.info:contains("Free"): "0"
+          img[src*="/free.png"]: "0"
           "*": "1"
       uploadvolumefactor:
         case:
